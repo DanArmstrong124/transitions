@@ -3,7 +3,9 @@
     height: 50px;
     background-color: green;
     transition-property: width, background-color;
-    transition-duration: 2s;
+    transition-duration: 5s;
+    transition: all 500ms cubic-bezier(1.000, -0.600, 0.580, 1.000);
+    /* Using Ceaser Transitions To Test */
 }
 
 .box:hover    {
